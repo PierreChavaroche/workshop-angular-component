@@ -2,6 +2,7 @@
 
 Veranschaulichung der Funktionsweise von Angular Components:
 
+- Components
 - Binding
 - Interpolation
 - Directives
