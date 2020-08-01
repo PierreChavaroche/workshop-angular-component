@@ -12,12 +12,12 @@ export class HomeComponent implements OnInit, AfterViewInit, DoCheck, OnDestroy 
   companies = [
     {
       name: 'Google',
-      logoSrc: 'https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg',
+      logoSrc: 'assets/logos/Logo-Google.svg',
       foundingYear: 1998
     },
     {
       name: 'sxiData',
-      logoSrc: 'https://www.sixdata.de/wp-content/themes/sixdata/img/sixData.png',
+      logoSrc: 'assets/logos/Logo-sixData.png',
       foundingYear: 2002
     }
   ]
