@@ -1,6 +1,13 @@
-# AngularExampleComponent
+# Workshop: Angular Component
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.5.
+Veranschaulichung der Funktionsweise von Angular Components:
+
+- Binding
+- Interpolation
+- Directives
+- Lifecycle
+- Teilen von Daten
+- Pipes
 
 ## Development server
 
