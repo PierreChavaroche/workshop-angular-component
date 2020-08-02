@@ -16,11 +16,11 @@ export class HomeComponent implements OnInit, AfterViewInit, DoCheck, OnDestroy 
       foundingYear: 1998
     },
     {
-      name: 'sxiData',
+      name: 'sixData',
       logoSrc: 'assets/logos/Logo-sixData.png',
       foundingYear: 2002
     }
-  ]
+  ];
 
   constructor() { }
 

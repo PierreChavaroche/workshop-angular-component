@@ -10,4 +10,16 @@
     <div *ngFor="let company of companies">
         <app-company [company]="company"></app-company>
     </div>
+
+    <!-- <h2 [ngClass]="{'red': company.name === 'Google', 'blue': company.name === 'sixData'}">
+        {{ company.name }}
+    </h2>
+    
+    <img [src]="company.logoSrc" width="200px">
+    
+    <p>
+        Gegründet im Jahr {{ company.foundingYear }}
+    </p>
+    
+    <hr/> -->
 </div>
