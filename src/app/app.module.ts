@@ -5,7 +5,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { MagnifierDirective } from './magnifier.directive';
 import { YearPipe } from './year.pipe';
-import { CompanyComponent } from './company/company.component';
+import { CompanyComponent } from './shared/company/company.component';
 
 @NgModule({
   declarations: [
