@@ -6,6 +6,7 @@ import { HomeComponent } from './home/home.component';
 import { MagnifierDirective } from './magnifier.directive';
 import { YearPipe } from './year.pipe';
 import { CompanyComponent } from './shared/company/company.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { CompanyComponent } from './shared/company/company.component';
     CompanyComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
